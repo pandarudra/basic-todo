@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "McLaren", cursive;
+}
+.over {
+  overflow: auto;
+}
+.form {
+  height: 600px;
+  background-image: url("https://i.pinimg.com/736x/90/74/87/9074876edac7e0cf8e3981d44fada883.jpg");
+}
