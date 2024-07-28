@@ -5,8 +5,12 @@ const Card = () => {
   const [box, setbox] = useState([]);
   const prevent = (elem) => {
     elem.preventDefault();
+    if(data.length()>1){
     setbox([...box, data]);
     setdata("");
+    }else{
+      alert("Enter Something...");
+    }
   };
   return (
     <>
